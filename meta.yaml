@@ -2,14 +2,15 @@ title: Open-Source Authoring and Publishing
 description: A synthesis of a democratized authoring and publishing framework for the creative publications in the post-AI era.
 version: 0.0.1
 authors:
-  - given-names: Hesperus
-    # family-names: abcdefg
+  - given: Hesperus
+    # family: abcdefg
     ocid: 0009-0008-7952-3109
-    github: hesprs
+    account: https://github.com/hesprs
     email: hesprs@outlook.com
 repository: https://github.com/hesprs/osap
 # website: https://osap.consensia.cc
-# doi: 123456789
+# pid: 123456789
 license: CC BY 4.0
 type: article
 entry: ./content/PAPER.md
+citation-style: apa
