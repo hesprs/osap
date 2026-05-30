@@ -4,7 +4,7 @@
 
 Fill later
 
-## 1 Introduction
+## Introduction
 
 The media and methods of information is tightly related with the pace of human progress. The arrival of computer technology, internet and large language models have deeply revolutionized the way that humans create and share knowledge. While nowadays academic publications, or intellectual commons in general, that are meant to be disseminated for public good, are largely trapped inside an outdated, printing-centered, and exclusive enclosure that hinders participation and sharing.
 
@@ -14,19 +14,19 @@ Open-source software thrived since the end of the 20th century due to its freedo
 
 The ossified authoring and publishing model must be completely discarded in favor of a more egalitarian and digital-native approach, where everyone can freely access, contribute, attest, and attribute the intellectual commons. This document will access the limitations in traditional model, elaborate on the new system, and envision the socio-economic impact of the new authoring and publishing.
 
-## 2 Status Quo
+## Status Quo
 
-### 2.1 Exclusive Participation
+### Exclusive Participation
 
 In traditional journals, manuscripts are sent to submission systems, those systems often require ORCID and institutional email addresses (**CITE**), which creates a barrier for people with no institutional backgrounds. Even if the submission succeeds, desk rejection will almost certainly happen on the works with unauthoritative or unverifiable author identities. Moreover, assuming even desk rejection does not happen, in the peer review phase, single-blind reviewers often have bias toward manuscript authors with low profile. With all aforesaid factors combined, academic publishing has been essentially restricted to researchers inside universities and famous laboratories.
 
-### 2.2 Plutocratic Access
+### Plutocratic Access
 
 Once a manuscript is accepted for publication, old-school journals often require transfer of copyright or exclusive publish right (**CITE**). These protocols directly infringes with the fact that academic results are meant to be the shared knowledge for human progress, instead of properties of proprietary companies. To allow the free access for all, researchers are often required to pay for a large amount of Article Processing Charges (APC) by themselves. This creates another layer of inequality that only researchers with wealthy backgrounds or abundant funding can allow their own works to be accessible by other researchers.
 
-If APC are not paid, the academic works will be locked behind a paywall of subscription fees, which reinforces [the barriers of the access from common citizens or underfunded researchers](@id:aaronson2007review). Economically, APC are not making the scientific publication process more affordable. [It simply transfers the profit of publishers from subscription fees to direct exploitation on researchers](@doi:10.1162/qss_a_00272), which are still funded by the state and are indirectly extracted from the taxpayers.
+If APC are not paid, the academic works will be locked behind a paywall of subscription fees, which reinforces [the barriers of the access from common citizens or underfunded researchers](@id:aaronson2007review). Economically, APC are not making the scientific publication process more affordable. [It simply transfers the profit of publishers from subscription fees to direct exploitation on researchers](@doi:10.1162/qss_a_00272,@doi:10.3138/jsp-2022-0073), which are still funded by the state and are indirectly extracted from the taxpayers.
 
-Researchers and libraries who subscribe journals are often nationally funded by the government. The research and peer review works are largely free labor where researchers spend time and equipment into researches without receiving profit. While journals are till charging high APC and subscription fees on readers. A unidirectional chain of value flow has formed, where journal publishers directly or indirectly exploit taxpayers, researchers, and government workers for private profits with high profit margins (**CITE**), as well as creating negative societal externalities that hinders the access of academic resources from citizens and researchers to comprehend the latest advancements.
+Researchers and libraries who subscribe journals are often nationally funded by the government. [The research and peer review works are largely free labor where researchers spend time and equipment into researches without receiving profit](@doi:10.1177/1350508412448858). While journals are till charging high APC and subscription fees on readers. A unidirectional chain of value flow has formed, where journal publishers directly or indirectly exploit taxpayers, researchers, and government workers for private profits with high profit margins (**CITE**), as well as creating negative societal externalities that hinders the access of academic resources from citizens and researchers to comprehend the latest advancements.
 
 ![[How Money Flow to Publishers.canvas]]
 
@@ -34,23 +34,23 @@ Researchers and libraries who subscribe journals are often nationally funded by 
 
 We argue that journal impact factors and the consequent market performance are orthogonal to publishing service quality. Citations are generated by perceived scholarly rigor, which is determined exclusively by author and reviewer labor. Publishing services function as transmission media that do not transform epistemic quality. Since impact factor is a function of citations alone, it carries no information about service quality. The observed correlation between high impact factor / high profit journals and rigorous papers is therefore entirely attributable to selection effects: talented authors submit to high impact factor venues because of existing prestige, not because those venues produce rigor. Consequently, the profits from prestige economy proportional to impact factor represents systematic misattribution from laborers to intermediaries.
 
-### 2.3 Opaque Authoring
+### Opaque Authoring
 
 The only way that authorship is entitled to a academic paper is via the authors list under the headline. This list fails to identify the individual contributions of the authors and does not provide a method of provenance. And in practice, authorship coercion happens from time to time among research papers (**CITE**). The lack of granular responsibility makes large scale academic misconduct and free rider problem undetectable, which harms academic fairness.
 
-### 2.4 Obsolete Medium
+### Obsolete Medium
 
 The majority of academic works are still published in the format of PDF, which is designed for human reading and printing. Researchers cannot embed interactive media and charts, executable research code, nor the dataset involved in researches. This absence of supporting material in research papers makes them irreproducible and experiment result fabrication becomes possible. This format also lacks the interactivity and interoperability presented in modern web-based presentation formats, making the work less comprehensible to people outside of the research world.
 
 With the recent development of large language models, machine-readable training data in the public domain are demanded more than ever. However, due to the private ownership of journal publishers over research papers, and the nature of PDF that is less digestible by machines than plain text formats, an obstacle is formed between LLM participation and professional research fields. Researches have proven that large amount of open data will hugely improve the capability of LLMs in the corresponding field (**CITE**), the inaccessibility of closed format may cause long-term insufficiency in LLM participation in research works, potentially slowing down the pace of academic progress.
 
-### 2.5 Dilapidated Mode of Production
+### Dilapidated Mode of Production
 
 Just as the steam engine and the printing press shattered the guild systems in the feudal era, the internet and open-source infrastructure have rendered the physical and economic constraints of the 20th-century academic journal obsolete. [The current mode of academic publishing relies on artificial scarcity](@id:fitzpatrick2011planned,@doi:10.1186/s41073-026-00193-3,@doi:10.5465/amj.2023.4006,@doi:10.3138/jsp.49.1.26,@id:young2008current,@doi:10.2139/ssrn.6300605). By locking research behind paywalls and relying on centralized gatekeepers to confer prestige, the traditional journal acts as a fetter. It restricts the flow of the very productive forces (digital data) it is supposed to manage, creating an enclosure of the digital commons. [The material productive forces of society come into conflict with the existing relations of production](@id:marx1904critique). Consequently, a transition toward a decentralized, democratized publishing mode is not merely a technological upgrade, but a necessary historical resolution to align the social relations of academia with the realities of its digital productive forces.
 
-## 4 Prior Art
+## Prior Art
 
-The history of academic publishing can be traced back to the post-Renaissance Europe. [Journals existed but remained majorly non-profit, they pursued knowledge circulation instead of academic prestige](@doi:10.5281/zenodo.546100). A transnational intellectual community "Res Publica Literaria" (the republic of letters) played the key role in the dissemination of academic knowledge. It was formed by the learned societies across Europe. Members communicate and share academical advancements with each other via correspondence. Res Publica Literaria remained the apparent openness through its existence, where everyone could participate in the free discussion of academic knowledge. However, due to the contemporary low literacy, the academic community remained as an aristocracy in the learned society.
+The history of academic publishing can be traced back to the post-Renaissance Europe. [Journals existed but remained majorly non-profit, they pursued knowledge circulation instead of academic prestige](@doi:10.5281/zenodo.546100). A transnational intellectual community "Res Publica Literaria" (the republic of letters) played the key role in the dissemination of academic knowledge. It remained the apparent openness through its existence. However, due to the contemporary low literacy, the academic community remained as an aristocracy in the learned society.
 
 After World War II, with the rapid growth of the academic activity, [the academic publishing sector began commercialization and professionalization; peer review, originally voluntary practice was adopted commercially as a "value-added" service](@doi:10.5281/zenodo.546100), while the drafting and reviewing process were still largely performed by voluntary researchers, forming an systemic exploitation.
 
@@ -60,11 +60,22 @@ After the arrival of digital era, the pace of the oligopoly did not retreat, but
 
 [Deep impact: unintended consequences of journal rank](@doi:10.3389/fnhum.2013.00291) rigorously assessed the current limitations of using journal ranking indices as the primary metric of the paper quality, and pointed out that corporate publishers use journal rank rhetoric to keep their journals closed-access and increase subscription prices. This paper also proposes an open, fair, and interoperable scientific evaluation option to replace the journal rank system using the modern information technology. Yet, due to the shift of focus, it doesn't provide a clear outline of the new system.
 
-The advent of Open Access Movement and [The Cost of Knowledge](http://thecostofknowledge.com/)
+The Open Access Movement and [The Cost of Knowledge](http://thecostofknowledge.com/) was two prominent movements trying to break the imprison of the publishing system. However, Open Access Movement only covers a small portion of articles with the cost of APC solely afforded by researchers. The Cost of Knowledge faded after being the topic of discussion for several months. None of the movements truly proposed a sustainable way to solve the issue.
 
-## 5 The New Paradigm
+[Several other discussions and attempts existed](@doi:10.1038/nature.2013.12243,@doi:10.3389/fncom.2011.00055,@doi:10.3389/fncom.2012.00011,@doi:10.3389/fncom.2012.00031,@doi:10.3389/fncom.2012.00063,@doi:10.3138/jsp-2022-0073,@id:padula2017democratizing), including full open access journals, network-based evaluation, post-publication peer review, and publishing as online service. Some of them proposed tangible new publishing model and outlined clear paths toward them. However, all of them stayed inside the legacy journal system, and no real practices of the proposed systems emerged after the creation of those literature.
 
-### 5.1 Git Repositories and Authoring
+Around the year 2020, Web3 and blockchain technology gained prevalence. [A lot of research are done that explore the possibility of using blockchain technology to democratize scholary publishing](@doi:10.1109/TCSS.2022.3204745,@doi:10.24251/HICSS.2019.560,@doi:10.3389/fbloc.2019.00019,@doi:10.3389/fbloc.2024.1375763,@doi:10.1016/j.ipm.2021.102724,@doi:10.1109/BLOC.2019.8751379,@doi:10.3390/publications7020033,@doi:10.1109/TSMC.2023.3266223). However, academic publishing systems built on blockchains are fundamentally infeasible and flawed, breaking the core values of constraints ob blockchain. The core tension can be summarized as follows:
+
+- blockchain cannot verify reviewer expertise without centralized identity oracles, breaking decentralization
+- game theory dictates that non-financial reputation lacks whistleblower incentives, while tokenized incentives invite spam and a [whole range of financiallization risks](@doi:10.3389/fbloc.2025.1641294)
+- [decentralized storage at a large scale is immature and expensive](@doi:10.1038/s41597-025-06335-4)
+- [the adoption of blockchain technology is slow and on-boarding requires high level understanding in blockchain technology](@doi:10.3389/fbloc.2025.1641294)
+
+[10.3389/fncom.2012.00018](https://doi.org/10.3389/fncom.2012.00018)
+
+## The New Paradigm
+
+### Git Repositories and Authoring
 
 The medium of the new manuscript drafting will be Git Repositories hosted on Git hosting services like GitHub and GitLab. Authors draft papers by making _commits_ or _pull requests_. Instead of opaque document drafting, open-source authoring or development in general often follow the collaboration workflow as follows:
 
@@ -77,13 +88,18 @@ The medium of the new manuscript drafting will be Git Repositories hosted on Git
 7. When the work is finished. An automated pipeline will bundle the main paper into HTML and PDF formats with other repository files. Then it will automatically mint a DOI, upload the PDF to public archives, and deploy the website with the full content and metadata. This will be covered in detail in [[#4.3 Versioning and Publishing]].
 8. When later changes are made and authors meet agreement, a new version of the paper can be released independently from the previous releases.
 
+![[Collaborative Editing.png]]
+
+> **Figure** 2 Collaborative Editing Workflow
+> **Source**: reprinted from [Open collaborative writing with Manubot](@doi:10.1371/journal.pcbi.1007128)
+
 By hosting the paper authoring in a public Git repository, the activity of the authoring process becomes fully transparent. Anyone with an eligible account of the Git hosting service can view the editing history directly via the service's web interface. This provides the most accurate insights into the contribution of each author (`git blame`), which eliminates ambiguities between individuals in terms of attribution and copyright. By analysing the Git history using professional tools, potential plagiarism and authorship coercion could be detected and flagged.
 
 The Git paper authoring lifecycle also facilitates free collaboration, participation, and access of the writing process and content of the work. In modern open-source software development lifecycle, common users can report bugs via _issues_, they can contribute to the development process themselves by forking the repository and create their own _pull requests_. Some Git hosting services, like GitHub, also provide _discussions_ to ask questions or discuss about implementations. The open-source authoring process can be opt-in these integrated features. People with constructive ideas but zero institutional ideas can also create their own pull requests in writing the paper and add themselves to the authors list. Moreover, with this liberated infrastructure, everyone will be able to publish or access an academic work publicly, regardless of economic or institutional background.
 
 With development pipelines like _continuous integration_ and _version control_ capability via Git, the quality control and publishing process will be highly automated; and the publications will be more error-tolerant and up to date. Basic continuous integration can automatically check for formatting, spelling and citation issues when a pull request is launched. While versioning function allows an open-source publication to release a new version after being identified with several methodological flaws in the previous version.
 
-### 5.2 Renovated Representation
+### Renovated Representation
 
 When researchers use an entire repository as the base for a research, the possibility of the representation of the research process and result can be extended to everything can be achieved by modern computer technology.
 
@@ -97,7 +113,7 @@ This requirement, together with machine-readable formats, not only makes the res
 
 The research repository can also adopt some other open-source development approaches such as _monorepo_. Hundreds of researchers can work collaboratively in a single repository containing tens or hundreds of individual but tightly related research projects. This ensures the instant sharing of newest findings and real-time collaboration between researchers.
 
-### 5.3 The Unified Toolchain
+### The Unified Toolchain
 
 Inspired by software development, open-source authoring and publishing deserves various tools (DevOps) to automate routines. While several tools exist (**CITE**), none have successfully streamlined the processes for the entire workflow or for non-technical researchers. A successful tool should be usable in both continuous integration pipelines and researchers' daily operations, and should be extensible to suit various workflows.
 
@@ -115,13 +131,13 @@ While extensible via modules, `osap` should primarily serve for the following pu
 
 Inspired by declarative package managers, the behavior of `osap` can be configured by `meta.yaml` inside the repository. This file configures default `osap` behavior and determines the metadata of the published paper, which is essential when integrating into the existing system.
 
-### 5.4 Versioning and Publishing
+### Versioning and Publishing
 
 The versioning of research projects guarantees the immutability and reliability of research artifacts. And a well-architectured publishing workflow can make the research artifact compatible within the current system.
 
 ![[How A Paper Becomes Recognized.canvas]]
 
-> **Figure 2** How A Paper Becomes Recognized
+> **Figure 3** How A Paper Becomes Recognized
 
 Research projects need to specify an entry in `meta.yaml` pointing to a text file that serves as the major content of the generated PDF file and the main page of the website.
 
@@ -139,33 +155,33 @@ Then the website will be hosted in services like GitHub pages or researcher-cont
 
 The aforesaid pipeline will be performed on each version of the publication. Each version will have a distinct DOI, and the website will allocate distinct pages for different versions of the page. The publications should be released under the Creative Commons license, such as `CC BY 4.0` or `CC BY-SA 4.0` to facilitate open access.
 
-### 5.5 The Open Registry
+### The Open Registry
 
-The ultimate vision of the publishing pipeline is that the paper published in the workflow described in [[#5.4 Versioning and Publishing]] can obtain equal citation recognition as well as strict quality control as the papers published via traditional publishers. Thus, we propose the `osap` publication registry to be established that replaces the role of Zenodo in current solution described above. It will act as a trusted proxy and quality filter between the legacy publishing system and the new paradigm.
+The authoring and publishing approach described above (Git authoring + Zenodo publishing + `osap` tooling) is already highly feasible and practical for independent publishing. However, the ultimate vision of the publishing pipeline is that the paper published in the workflow described in [[#5.4 Versioning and Publishing]] can obtain equal recognition as well as strict quality control as the papers published via traditional publishers. Thus, we propose the `osap` publication registry to be established that replaces the role of Zenodo in current solution described above. It will act as a trusted proxy and quality filter between the legacy publishing system and the new paradigm.
 
 Akin to the concept of package registries in software development, `osap` registry will be a place for open-source authors to freely publish their works. It will serve for the following purposes:
 
 - provides a specialized registry for open-source publications, with DOI minting (DataCite) and citation resolution for publications.
-- provides a user-friendly interface to query the published artifacts and their calculated performance index from apparent statistics (e.g., GitHub stars, duplication, citation counts).
+- provides a user-friendly interface to query the published artifacts and their apparent statistics (e.g., GitHub stars, duplication, citation counts, download counts).
 - provides a public-facing and authoritative website for publication discoverability in search engine queries and facilitate the reading by common citizens.
 - performs advanced quality screening by using neural network citation graph analysis, duplication check, Git history analysis, and provide a venue for post-publication open peer review.
 - collaborate with DOI issuers and citation indexers (Web of Science, OpenAlex) to punish misconduct.
 
 By maintaining the registry, open-source researchers will have a shared server and community for their research works. The quality control process will also keep the new publication workflow stay academic and reputable.
 
-## 6 Socio-Economic Vision
+## Socio-Economic Vision
 
-### 6.1 Post-Publication Peer Review and Attribution
+### Post-Publication Peer Review and Attribution
 
-In the traditional model, the releasing of scholar paper requests a complex routine, which usually involves submission, desk rejection and peer review. Often a few reviewers are involved in the process of an individual paper (**CITE**), the reviewers also operate with little incentive and relevance. This process is prone to overlook potential in reviewed manuscripts; and the entire review and revision process could take months to finish, which hinders the fast evolution of the academia.
+In the traditional model, the releasing of scholar paper requests a complex routine, which usually involves submission, desk rejection and peer review. Often a few reviewers are involved in the process of an individual paper (**CITE**), the reviewers also operate with little incentive and relevance. This process is prone to [overlook or discriminate potential in reviewed manuscripts](@id:akst2010hate); and the entire review and revision process could take months to finish, which hinders the fast evolution of the academia.
 
 In open-source publishing, there's no formal peer review phase before the publication of a paper. This ensures the fast iteration of the releasing cycles as well as gathering early feedback. The acceleration of the spread of information will eventually lead to the faster advancements of researches (**CITE**).
 
-The review function is majorly absorbed by post-publication review and crowd surveillance. Due to the open nature of open-source authoring, anyone with a Git hosting service account can open an issue in the repository to attest the format, methodology and validity of the results. Researchers can revise their artifact and re-publish in a new version. This ensures the content of the research will constantly evolve better. Higher activity of issue and discussion signals higher impact.
+The review function is majorly absorbed by post-publication review and crowd reputation. Due to the open nature of open-source authoring, anyone with a Git hosting service account can open an issue in the repository to attest the format, methodology and validity of the results. Researchers can revise their artifact and re-publish in a new version. This ensures the content of the research will constantly evolve better. Higher activity of issue and discussion signals higher impact.
 
 Similar to "Awesome Lists" that are often found in Git hosting services (**CITE**), the "journals" in the context of open-source publication will be community curated publication lists, where community members discover high-quality and innovative publications, and list their links with description in a public catalog or websites. The curation will be completely transparent and voluntary, and will enhance the discoverability of high-quality artifacts with minimal collusion or corruption risk.
 
-### 6.2 Quality Control
+### Quality Control
 
 A decentralized, open registry is vulnerable to Sybil attacks and citation cartels, where people can mass produce low quality papers that cite existing papers to boost their citation power. And the metric-based quality evaluation makes it possible for malicious authors to game the metric, according to Goodhart’s Law (**CITE**), the metric will fail to be effective.
 
@@ -185,15 +201,15 @@ After the pre-screens above, the submission will be published and a DOI will be 
 
 After publishing, the artifacts still face constant community review. The whistleblowing mechanism makes everyone able to report misconduct in publications. Community review will be carried out and the those flagged by a large portion of reviewers will be regarded as misconduct and be removed from the registry. The corresponding DOI content will be updated to be a placeholder that signifies policy violation. And the registry will notify citation indexers to remove the publication from their citation graph.
 
-The registry will have a reviewer prestige system, their prestige system defines what weight they carry in the post-publication review process, which is calculated as the logarithm of the total performance of their publications. The performance of each publication is calculated from apparent statistics such as citations, GitHub / GitLab stars and the activity of issues and discussions. The prestige system is designed to prevent Sybil attacks that malicious figures could automate account registration and spam review. The post-publication peer review mechanism is designed to resemble the peer review in traditional journals, but fully transparent and is carried out at larger scale.
+The registry will have a reviewer prestige system, their prestige system defines what weight they carry in the post-publication review process, which is calculated as the logarithm of the total performance of their publications. The performance of each publication is calculated from apparent statistics such as citations, GitHub / GitLab stars and the activity of issues and discussions. The prestige system is designed to prevent Sybil attacks that malicious figures could automate account registration and spam review. The post-publication peer review mechanism can be carried out in various forms, including _issues_ in Git hosting services and social discussions, it will achieve the quality assessment function in tradition journals but is fully transparent and carried out at larger scale.
 
-### 6.3 Egalitarian Participation
+### Egalitarian Participation
 
 Since every legitimate human with internet connection and a email address can register Git hosting service and ORCID accounts, the publication and access of open-source authoring and publishing is open to everyone.
 
 By democratizing the participation and diversifying the representation, the new paradigm would demystify the process of academic advancements. Anyone, including industry engineers, independent researchers, or even autonomous AI agents, can publish the advancements in their fields or share public data in any machine-readable format, as well as downloading and examining others' research artifact. The equality and universality of the access of academic research could allow more diversified opinions to be heard in the academia, more innovative ideas to be discovered (**CITE**), and less information gap brought by economic inability or institutional bias.
 
-### 6.5 End of Rent Seeking
+### End of Rent Seeking
 
 As deduced in [[#3.2 Plutocratic Access]], journal publishers often extract unjustifiable revenue via methods like APC charges and subscription fees, while enjoying the free labor of researchers and reviewers as well as the prestige economy brought by impact factor. Below will be a detailed analysis on the societal costs related with academic publishing compared with the proposed new paradigm.
 
@@ -214,30 +230,30 @@ The transient costs listed above are hard to measure quantitatively. However, th
 
 Journals could gradually transform from the hard oligopolies to soft certification services. Since academic publication no longer need to pas though journals, yet their prestige could still remain for a long period. Journals could evolve to a new business model where researchers can pay journals for assessment, journals review the publications and grant certificates for qualified works as a prestigious proof of the academic rigor of the publication.
 
-## 7 Limitations and Mitigation
+## Limitations and Mitigation
 
-### 7.1 Technical Hurdle
+### Technical Hurdle
 
 The use of Git and package manager inspired `osap` registry requires professional software development skill. The vast majority of researchers are incapable in the domain of software development. The prevalence of OSAP might be limited in technical cohort.
 
 To mitigate, the `osap` computer program should be implemented with a dedicated graphical user interface version, with simplified abstractions on Git and registry related workflows.
 
-### 7.2 Transitional Inertia
+### Transitional Inertia
 
 The world's most recognized research citation indexer Web of Science only indexes prestigious journal articles, artifacts published via OSAP are excluded. Universities and laboratories may still see publishing on high impact factor journals as a proof of academic excellence.
 
 To mitigate, the early major target of OSAP will be arXiv users, independent researchers, industry practitioners, and global south academic workers who were once excluded by the bureaucracy of the legacy system. While the legacy mindset may still last long, we believe in the collective will of academic freedom.
 
-### 7.3 Low-Quality Publications and Reviewers
+### Low-Quality Publications and Reviewers
 
 Allowing anyone to publish removes the barrier for common citizens, but it also give malicious players chances to damage the system by means of low-quality publication flooding and fake reviews.
 
 Apart from the means discussed in [[#6.2 Quality Control]], the `osap` registry could establish common cyber security practices such as IP-bound rate limiting or account flagging, as well as game theoretic mechanisms such flagging low quality publication producer accounts and malicious whistleblowers (false accusers).
 
-### 7.4 Funding and Centralization Risk
+### Funding and Centralization Risk
 
 The annual expense in running the `osap` registry, with reference to arXiv will be around millions of dollars. Moreover, `osap` registry itself creates single point of failure in the OSAP ecosystem.
 
 To mitigate, the `osap` registry will rely on institutional funding and donations. When it has become a global academic infrastructure, it might be able to attract government-led funding. To deal with the centralization risk, the data and operations of `osap` registry will be fully transparent, community forking and backup are encouraged. Decentralized mirror websites and storage infrastructure will be established around the globe to prevent server downtime or censorship.
 
-## 8 Conclusion
+## Conclusion

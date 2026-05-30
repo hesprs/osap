@@ -73,3 +73,37 @@ citations:
     pages: 19--23
     year: 2007
     publisher: ACM New York, NY, USA
+
+  - type: article
+    id: akst2010hate
+    title: I hate your paper
+    author:
+      - family: Akst
+        given: Jef
+    journal: The Scientist
+    volume: 24
+    number: 8
+    pages: 36--41
+    year: 2010
+    publisher: The Scientist
+
+  - type: article
+    id: padula2017democratizing
+    title: 'Democratizing academic journals: Technology, services, and open access'
+    author:
+      - family: Padula
+        given: Danielle
+      - family: Brembs
+        given: Björn
+      - family: Harnad
+        given: Stevan
+      - family: Herb
+        given: Ulrich
+      - family: Missingham
+        given: Roxanne
+      - family: Morgan
+        given: Dan
+      - family: Ortbal
+        given: John
+      - literal: others
+    year: 2017
