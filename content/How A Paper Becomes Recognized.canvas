@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"373043c4b17e3b9b","type":"group","x":-59,"y":-260,"width":300,"height":580,"color":"5","label":"Proposed Workflow"},
+		{"id":"4df94f4f878e1233","type":"group","x":-320,"y":-260,"width":242,"height":580,"color":"3","label":"Legacy Workflow"},
+		{"id":"2b0b2508f1782a94","x":-297,"y":180,"width":510,"height":125,"type":"group","label":"Academic Databases"},
+		{"id":"b77046f2e748bc46","type":"group","x":-293,"y":-120,"width":506,"height":120,"label":"Artifacts"},
+		{"id":"09a16823a7cc7be1","type":"group","x":-274,"y":40,"width":441,"height":100,"label":"DOI Issuers"},
+		{"id":"b5f1122e3a477ea8","type":"text","text":"Journal Issues","x":-273,"y":-100,"width":148,"height":60},
+		{"id":"7f8d78d9726cb0a3","type":"text","text":"PDF, Website,\nRepository Snapshot","x":-12,"y":-100,"width":205,"height":80},
+		{"id":"fa8a97770db02f63","type":"text","text":"Closed peer review\nDelayed publication","x":-300,"y":-240,"width":202,"height":73},
+		{"id":"30dad1723f874e6e","type":"text","text":"Instant Publication\nPost-publication peer review","x":-39,"y":-240,"width":260,"height":73},
+		{"id":"f45eb467c5faf890","type":"text","text":"CrossRef","x":-254,"y":60,"width":110,"height":60},
+		{"id":"20af503f25cdccb4","type":"text","text":"DataCite","x":35,"y":60,"width":111,"height":60},
+		{"id":"aed609236b3c80a2","type":"text","text":"OpenAlex, Dimensions, Google Scholar","x":-27,"y":200,"width":220,"height":85},
+		{"id":"624bfd8cb2d62d67","type":"text","text":"Web of Science","x":-277,"y":200,"width":156,"height":60}
+	],
+	"edges":[
+		{"id":"8273cda27d4f983e","fromNode":"30dad1723f874e6e","fromSide":"bottom","toNode":"7f8d78d9726cb0a3","toSide":"top"},
+		{"id":"c426b471c3e6e48c","fromNode":"fa8a97770db02f63","fromSide":"bottom","toNode":"b5f1122e3a477ea8","toSide":"top"},
+		{"id":"a3403f993bfdf398","fromNode":"b5f1122e3a477ea8","fromSide":"bottom","toNode":"f45eb467c5faf890","toSide":"top"},
+		{"id":"acb97c87adde6abf","fromNode":"7f8d78d9726cb0a3","fromSide":"right","toNode":"aed609236b3c80a2","toSide":"right"},
+		{"id":"ac8d2849e352dbc8","fromNode":"7f8d78d9726cb0a3","fromSide":"bottom","toNode":"20af503f25cdccb4","toSide":"top"},
+		{"id":"9f61e8351f64b6a9","fromNode":"b5f1122e3a477ea8","fromSide":"left","toNode":"624bfd8cb2d62d67","toSide":"left"}
+	]
+}

@@ -14,3 +14,62 @@ license: CC BY 4.0
 type: article
 entry: ./content/PAPER.md
 citation-style: apa
+citations:
+  - type: report
+    id: arxiv2024annual
+    title: 'arXiv Annual Report 2024'
+    author:
+      - name: arXiv
+    institution: Cornell University
+    year: 2024
+    url: 'https://info.arxiv.org/about/reports/2024_arXiv_annual_report.pdf'
+    note: 'Accessed: 2026-05-30'
+
+  - type: book
+    id: fitzpatrick2011planned
+    title: 'Planned obsolescence: Publishing, technology, and the future of the academy'
+    author:
+      - family: Fitzpatrick
+        given: Kathleen
+    year: 2011
+    publisher: NYU press
+
+  - type: article
+    id: young2008current
+    title: "Why current publication practices may distort science. The market for exchange of scientific information: the winner's curse, artificial scarcity, and uncertainty in biomedical publication"
+    author:
+      - family: Young
+        given: Neal S
+      - family: Ioannidis
+        given: John PA
+      - family: Al-Ubaydli
+        given: Omar
+    journal: PLoS Medicine
+    volume: 5
+    year: 2008
+
+  - type: book
+    id: marx1904critique
+    title: A Contribution to the Critique of Political Economy
+    author:
+      - family: Marx
+        given: Karl
+    translator:
+      - family: Stone
+        given: N. I.
+    year: 1904
+    publisher: Charles H. Kerr & Company
+    address: Chicago
+
+  - type: article
+    id: aaronson2007review
+    title: 'Review of "The Access Principle by John Willinsky," MIT Press, 2005'
+    author:
+      - family: Aaronson
+        given: Scott
+    journal: ACM SIGACT News
+    volume: 38
+    number: 4
+    pages: 19--23
+    year: 2007
+    publisher: ACM New York, NY, USA
