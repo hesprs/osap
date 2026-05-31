@@ -107,3 +107,90 @@ citations:
         given: John
       - literal: others
     year: 2017
+
+  - type: article
+    id: nielsen2020reinventing
+    title: 'Reinventing discovery: the new era of networked science'
+    author:
+      - family: Nielsen
+        given: Michael
+    year: 2020
+    publisher: Princeton University Press
+
+  - type: book
+    id: gandrud2018reproducible
+    title: Reproducible research with R and R studio
+    author:
+      - family: Gandrud
+        given: Christopher
+    year: 2018
+    publisher: Chapman and Hall/CRC
+
+  - type: techreport
+    id: himmelstein2019manubot
+    title: 'The Manubot Manifesto: envisioning the future of scholarly publishing'
+    author:
+      - family: Himmelstein
+        given: Daniel S
+    year: 2019
+    institution: Manubot
+    url: https://manubot.github.io/manufesto/
+
+  - type: misc
+    id: nature_publishing_policies_affiliation
+    title: Editorial and publishing policies
+    author:
+      - literal: Nature Portfolio
+    year: n.d.
+    url: https://www.nature.com/palcomms/journal-policies/editorial-and-publishing-policies
+    note: Accessed 2026-05-31
+
+  - type: misc
+    id: elsevier_nutrition_authors_guide
+    title: 'Nutrition Research: Guide for Authors'
+    author:
+      - literal: Elsevier
+    year: n.d.
+    url: https://legacyfileshare.elsevier.com/promis_misc/nutrition-research-guide-for-authors.pdf
+    note: Accessed 2026-05-31
+
+  - type: misc
+    id: nature_publishing_policies_publishing_right
+    title: Forms and declarations
+    author:
+      - literal: Nature
+    year: n.d.
+    url: https://www.nature.com/nature/for-authors/forms-and-declarations
+    note: Section "Licence to publish", Accessed 2026-05-31
+
+  - type: misc
+    id: cell_trends_editorial_policies
+    author:
+      - literal: Cell Press
+    title: Editorial Policies
+    year: 2026
+    url: https://www.cell.com/trends/editorial-policies
+    note: Section "Copyright", Accessed 2026-05-31
+    publisher: Elsevier
+
+  - type: techreport
+    id: relx_2025_financial_review
+    author:
+      - literal: RELX Group
+    title: 'RELX Annual Report 2025: Financial Review'
+    year: 2025
+    institution: RELX Group
+    genre: Annual Report
+    url: https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/2025-ar-sections/relx-2025-financial-review.pdf
+    note: Figure "Adjusted operating profit margin", Accessed 2026-05-31
+
+  - type: techreport
+    id: springer_nature_2025_annual_report
+    author:
+      - literal: Springer Nature
+    title: Springer Nature Annual Report 2025
+    year: 2025
+    institution: Springer Nature
+    genre: Annual Report
+    url: https://annualreport.springernature.com/2025/files/sn-annual-report-2025-en.pdf
+    note: 'Accessed: 2026-05-31'
